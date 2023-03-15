@@ -1,15 +1,17 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        CustomLinkedList list = new CustomLinkedList();
-        list.insertAtBeginning(1);
-        list.insertAtBeginning(2);
-        list.insertAtBeginning(3);
-        list.insertAtBeginning(4);
-        list.insertAtBeginning(5);
-        list.insertAtEnd(0);
+        // CustomLinkedList list = new CustomLinkedList();
+        CustomDoublyLinkedLIst dl = new CustomDoublyLinkedLIst();
 
-        System.out.println(list.findNode(4));
+        dl.insertAtBeginning(9);
+        dl.insertAtBeginning(12);
+        dl.insertAtBeginning(44);
+        dl.insertAtBeginning(1);
+        dl.insertAtBeginning(111);
+        dl.insertAtBeginning(211);
+        dl.insertAtLast(999);
+        dl.display();
 
     }
 }
